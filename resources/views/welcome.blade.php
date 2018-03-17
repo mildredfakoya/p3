@@ -14,7 +14,7 @@
         <div class ='col-3'></div>
         <div class ='col-9'>
             <div class ='outer'>
-                <div class ='heading'><label>BMI Calculator Form</label></div>
+                <div class ='heading'><h1>BMI Calculator Form</h1></div>
                 <div class ='container'>
                     <form method ='get'>
                         <div class ='row'>
@@ -24,9 +24,9 @@
                         <div class ='textspacer spacer'></div>
                         <div class ='row'>
                             <label class ='col-5' for ='gender'>Gender</label>
-                            <div class = 'col-7 columnspacer'>
-                            <Input id ='gender' name ='gender' type ='radio' value ='female'/>Female <br/>
-                            <Input id ='gender' name ='gender' type ='radio' value ='male'/>Male <br/>
+                            <div class = 'col-7 columnspacer' id ='gender'>
+                            <Input name ='gender' type ='radio' value ='female'/>Female <br/>
+                            <Input name ='gender' type ='radio' value ='male'/>Male <br/>
                             </div>
                         </div>
                         <div class ='textspacer spacer'></div>
