@@ -1,0 +1,161 @@
+*{
+    box-sizing:border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+.row::after{
+    content:"";
+    clear:both;
+    display:block;
+
+}
+
+[class*="col-"] {
+    width: 100%;
+    float:left;
+    padding:15px;
+}
+
+
+.col-9{
+    padding:15px;
+}
+
+.col-9 h1,h3{
+    padding:15px;
+    text-align:justify;
+    font-size:14px;
+}
+
+body {
+
+    margin:10px;
+    padding:10px;
+}
+
+
+
+.btnblk{
+    display:block;
+    width:100%;
+    margin-top:5px;
+    background-color: #2e6da4;
+    height:40px;
+    font-size: 1.2em;
+}
+
+
+
+.col-1{
+    width:8.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-2{
+    width:16.66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.col-3{
+    width:25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-4{
+    width:33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-5{
+    width:41.66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-6{
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-7{
+    width:58.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-8{
+    width:66.66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-9{
+    width:75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.col-10{
+    width:83.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-11{
+    width:91.66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-12{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+div.outer{
+    max-width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display:block;
+    height:auto;
+}
+
+.container{
+    padding:10px;
+}
+
+div.heading{
+    background-color:#608341;
+    color:#ffffff;
+    height:80px;
+    padding:10px;
+    text-transform:capitalize;
+}
+
+.textspacer{
+    border-bottom:1px dotted #0099cc;
+
+}
+.columnspacer{
+    border-left:1px dotted #0099cc;
+
+}
+
+.spacer{
+height: 50px;
+}

@@ -13,4 +13,3 @@
 
 Route::get('/', 'WelcomeController@welcome');
 
-Route::get('/new-test', 'TestController@start');
