@@ -26,7 +26,7 @@
                             <label class ='col-5'>Gender</label>
                             <div class = 'col-7 columnspacer' id ='gender'>
                             <Input name ='gender' type ='radio' value ='female' id ='female'/><label for ='female'>Female </label><br/>
-                            <Input name ='gender' type ='radio' value ='male' id = 'male'/><label for 'male'>Male</label> <br/>
+                            <Input name ='gender' type ='radio' value ='male' id = 'male'/><label for = 'male'>Male</label> <br/>
                             </div>
                         </div>
                         <div class ='textspacer spacer'></div>
