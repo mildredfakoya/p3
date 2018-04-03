@@ -12,8 +12,14 @@ return [
     | any other location as required by the application or its packages.
     |
     */
-
+    'supportEmail' => 'mildredfakoya@p3.com',
     'name' => 'Project 3',
+
+    'nav' => [
+        '/bmi' => 'Calculate BMI',
+        '/about' => 'About',
+        '/contact' => 'Contact',
+    ],
 
     /*
     |--------------------------------------------------------------------------

@@ -9,11 +9,16 @@
 
     @stack('head')
 </head>
+
 <body>
+<header>
+    @include('modules.nav')
+</header>
 
 <section id='main'>
     @yield('content')
 </section>
+
 
 <footer>
     <a href='http://github.com/mildredfakoya/p3'><i class='fa fa-github'></i> View on Github</a>
