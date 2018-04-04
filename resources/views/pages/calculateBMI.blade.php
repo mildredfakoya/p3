@@ -16,7 +16,7 @@
                     {{ csrf_field() }}
                     <div class='error'>* Required fields</div>
                     <div class='row'>
-                        <label class = 'col-5'for='uniqueid'>* Unique ID</label>
+                        <label class = 'col-5' for='uniqueid'>* Unique ID</label>
                         <input type='text' class = 'col-7 columnspacer' name='uniqueid' id='uniqueid' value='{{ old('uniqueid') }}'>
                         @include('modules.error-field', ['field' => 'uniqueid'])
                     </div>
