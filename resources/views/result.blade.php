@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-   Result
+    Result
 @endsection
 
 @section('content')
@@ -22,6 +22,7 @@
             @endif
 
         </div>
+    </div>
 
 
 @endsection

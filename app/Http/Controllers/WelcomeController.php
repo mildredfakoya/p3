@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 class WelcomeController extends Controller
 {
 
-
     public function welcome()
     {
         return view('welcome');
@@ -25,7 +24,6 @@ class WelcomeController extends Controller
         ]);
     }
 
-
     public function calculate()
     {
         return view('pages.calculateBMI');
@@ -33,8 +31,6 @@ class WelcomeController extends Controller
 
     public function save(Request $request)
     {
-
-
         $this->validate($request, [
             'uniqueid' => 'required|alpha_num',
             'gender' => 'required',
